@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Happy B-day🎂</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+   <style>
+    body {
+    background:#ececec;
+    margin:0;
+    padding:0;
+    max-height:100vh;
+    max-width:100vh;
+    background: cadetblue;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+}
+
+.page{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background:#ececec;
+    height:40%;
+    width:50%;
+    padding:5px;  
+    border-radius:9px;  
+    box-shadow:  6px 6px 12px rgba(0,0,0,0.1), 
+        -6px -6px 12px rgba(255,255,255,0.8);
+    transition:0.5s;
+}
+.first_page{
+    z-index:5;
+    height:auto;
+    background-image: url(pic11.jpeg);
+    background-position: center;
+    background-size: calc(85%);
+
+}
+
+.second_page{
+    visibility:hidden;
+    z-index:1;
+    background-image: url(pic11.jpeg);
+    background-position: center;
+    background-size: calc(85%);
+    height: 65%;
+
+
+}
+.greet,.greeting{
+    padding:2px 1%;
+    width:94%;
+    text-align:center;
+    font-weight:bold;
+    font-size:20px;
+    letter-spacing:7px;
+    text-shadow:  6px 6px 12px rgba(0,0,0,0.2), 
+        -6px -6px 12px rgba(255,255,255,0.8);
+    margin-top:15%;
+    color: white;
+    font-family: 'Dongle', sans-serif;  
+    font-weight: 400;
+}
+.greet:first-letter{
+    font-size:30px;
+    box-shadow:  6px 6px 12px rgba(0,0,0,0.1), 
+        -6px -6px 12px rgba(255,255,255,0.8);
+    padding:10px 13px;
+    margin:2px;
+    border-radius:50%;
+    
+}
+.greet:nth-child(1){
+    text-align:left;
+    color: black;
+    font-family: 'Dongle', sans-serif;  
+
+}
+.greet:nth-child(3){
+    text-align:right;
+    color: black;
+    font-family: 'Dongle', sans-serif;  
+}
+.next{
+    width:60px;
+    height:60px;
+    margin-left:15px;
+    box-shadow:  6px 6px 12px rgba(0,0,0,0.1), 
+        -6px -6px 12px rgba(255,255,255,0.8);
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
+    font-size:20px;
+    color: black;
+    cursor: pointer;
+}
+
+.greeting{
+    margin-top:1%;
+}
+.greeting{
+    border-radius:5px;
+    font-size:17px;
+    box-shadow:  6px 6px 12px rgba(0,0,0,0.1), 
+        -6px -6px 12px rgba(255,255,255,0.8);
+    margin:1px;
+    margin-top:2%;
+    width:33%;
+    margin-left:30%;
+    color: white;
+    font-weight: bolder;   
+    
+}
+
+
+.pic{
+    width:96%;
+    height:15%;
+     box-shadow:  6px 6px 12px rgba(0,0,0,0.1), 
+        -6px -6px 12px rgba(255,255,255,0.8);
+    border-radius:0%;
+    display:inline-block;
+    margin-top:5px;
+    margin-left:2%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
+    font-size: 30px;
+    color:black;
+    font-family: 'Dongle', sans-serif; 
+}
+.pic:hover,.greeting:hover,.next:hover{
+    box-shadow:inset 6px 6px 12px rgba(0,0,0,0.1), 
+      inset  -6px -6px 12px rgba(255,255,255,0.8);
+}
+   #resize{
+       font-size: 15px;
+       color: black;
+   }
+   #resize1{
+       font-size: 15px;
+       color: black;
+   }
+   p{
+       color:black;
+       margin-top: 10px;
+       font-family: 'Dongle', sans-serif;
+       font-weight: 600;
+       font-size: 15px;
+       color: white;
+   }
+   @media only screen and (max-width:600px){
+         .card{
+             width: 100px;
+             
+         }
+         .pic{
+             font-size: 20px;
+             color: black;
+         }
+         .first_page {
+            background-image: url(pic11.jpeg);
+            background-position: center;
+            background-size:cover;
+            width: 75%;
+           
+            
+         }
+         .second_page{
+             background-image: url(pic11.jpeg);
+             background-position: center;
+             background-size: cover;
+             height:95%;
+             width: 75%;
+             font-family: 'Dongle', sans-serif; 
+
+            
+         }
+         .greeting{
+             font-weight: 900;
+             font-size: 25px;
+             color: whitesmoke;
+         }
+         p{
+             color:black;
+             margin-top: 35px;
+             font-family: 'Dongle', sans-serif;
+         }
+         .greet{  
+           color:white;
+         }
+         .greet:nth-child(1){
+             text-align:left;
+            color: black;
+            font-family: 'Dongle', sans-serif;  
+            font-size: 20px;
+         }
+        .greet:nth-child(3){
+            text-align:right;
+            color: black;
+            font-family: 'Dongle', sans-serif;  
+            font-size: 20px;
+        }
+        .greet:first-letter{
+             font-size:30px;
+             box-shadow:  6px 6px 12px rgba(0,0,0,0.1), 
+                         -6px -6px 12px rgba(255,255,255,0.8);
+             padding:10px 13px;
+             margin:3px;
+             border-radius:50%;
+             color: black;
+     
+       
+   }
+        </style>
+    </head>
+    <body>
+    
+        <div class="card">
+            <div class="first_page page">
+              <div class="greet">Happy</div>
+              <div class="greet">Birthday</div>
+              <div class="greet">Day</div>
+              <div onclick="hidePage()" class="next"><</div>
+            </div> 
+            
+            <div class="second_page page">
+
+            <div class="pic">Happy Birthday Day</div>
+               <div class="greeting">01001</div>
+             <div class="greeting" id="resize">01100 10101 10110</div>
+             <div class="greeting">10101</div>
+             <div class="greeting" id="resize1">00010 01110 00111 10010 01101</div> 
+               <div class="para">
+                <p>There is no better way to say happy birthday than to say you mean very much to me. 1010 0001 0001 1110, age is just a number, for me you are a year younger today and will always be for the rest of your birthdays. You will never grow old in my eyes and in my heart. Happy Birthday :).I have met lots of special people in my life but you surpass them all, There’s no better day to let you know this than on a special day like this. </p>
+               </div>
+                           
+            </div>          
+        </div>
+        <audio controls style="display:none;" loop id="audio">
+     <source id="audio-source"
+     src="pic1.mp3"> </audio>
+        <script>
+            const hidePage = ()=>{
+let fp = document.getElementsByClassName("page");
+fp[0].style.left = "-50%"
+fp[1].style.visibility = "visible";
+setTimeout(()=>{
+fp[0].style.visibility = "hidden";
+},1000)
+};
+
+alert("Tap to play the music");
+alert(" And Click on the '<' button to swipe the page.. :)")
+//var frnd=prompt("Enter your name");
+//alert("HAPPY 😄😄😄😄😄\n     BIRTHDAY🎁🎁🎁🎁🎁\n           TO YOU 🌎🌏🌍🌎🌏🌍\n                 FROM YOUR FRIEND: "+frnd+" :)");
+    window.addEventListener("click",play);
+    function play()
+    { 
+        document.getElementById("audio").play();
+    }
+
+    //var name=prompt("Enter the your name")
+   // alert("HBD to u from " + name)
+   </script>
+                   
+    </body>
+</html>
+
+
